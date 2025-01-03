@@ -1,0 +1,161 @@
+/* Base styles for the body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f4f7fb;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+/* Container for the entire app */
+.container {
+  width: 90%;
+  max-width: 800px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Header and Titles */
+h1, h2 {
+  font-size: 1.6rem;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+  color: #2a9d8f;
+}
+
+h2 {
+  font-size: 1.4rem;
+  margin-bottom: 10px;
+  color: #2a9d8f;
+}
+
+/* Task List */
+#tasks {
+  width: 100%;
+}
+
+#task-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+#task-list li {
+  display: flex;
+  align-items: center;
+  background-color: #f1f1f1;
+  border-radius: 8px;
+  margin: 10px 0;
+  padding: 12px 15px;
+  transition: background-color 0.3s, transform 0.3s ease-in-out;
+}
+
+#task-list li.completed {
+  background-color: #a8dadc;
+  text-decoration: line-through;
+}
+
+#task-list li:hover {
+  transform: scale(1.03);
+}
+
+/* Checkboxes for tasks */
+input[type="checkbox"] {
+  margin-right: 10px;
+  transform: scale(1.2);
+}
+
+/* New task input field and button */
+input[type="text"] {
+  width: 96%;
+  padding: 12px 15px;
+  margin-top: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1.13rem;
+}
+
+input[type="text"]:focus {
+  outline: none;
+  border-color: #2a9d8f;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  background-color: #2a9d8f;
+  color: white;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+button:hover {
+  background-color: #1d3557;
+}
+
+button:active {
+  background-color: #2a9d8f;
+  transform: scale(0.98);
+}
+
+/* Timer section */
+#timer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+#time-display {
+  font-size: 3rem;
+  margin: 10px 0;
+  color: #2a9d8f;
+}
+
+#start-btn,
+#reset-btn {
+  margin-top: 15px;
+}
+
+button:disabled {
+  background-color: #b0b0b0;
+  cursor: not-allowed;
+}
+
+#settings {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 20px 0;
+  font-size: 1.16rem;
+}
+
+/* Pause button styles */
+#start-btn.paused {
+  background-color: #e63946; /* Red color */
+}
+
+#start-btn.paused:hover {
+  background-color: #9e2a2f;
+}

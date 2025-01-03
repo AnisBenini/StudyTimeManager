@@ -1,0 +1,16 @@
+{
+    "manifest_version": 3,
+    "name": "Study Time Manager",
+    "version": "1.0",
+    "description": "An extension to manage study time effectively with a Pomodoro timer, task manager, and reminders.",
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "icons/icon16.png",
+        "48": "icons/icon48.png",
+        "128": "icons/icon128.png"
+      }
+    },
+    "permissions": ["notifications", "storage"]
+  }
+  
