@@ -1,1 +1,1 @@
-# extention-for-study
+# StudyTimeManager
