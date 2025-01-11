@@ -86,9 +86,5 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 For questions or suggestions, feel free to contact:
 - **Author**: Anis Benini
-- **Email**: [your-email@example.com](mailto:your-email@example.com)
+- **Email**: [anisBENINI@proton.me](mailto:anisBENINI@proton.me)
 - **GitHub**: [AnisBenini](https://github.com/AnisBenini)
-
----
-
-Happy studying! 🎓
