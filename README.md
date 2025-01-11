@@ -50,8 +50,7 @@ To use Study Time Manager, follow these steps:
 
 ## Screenshots
 
-![Screenshot 1](path/to/screenshot1.png)
-![Screenshot 2](path/to/screenshot2.png)
+![Screenshot 1](img/image.png)
 
 ## Technologies Used
 
